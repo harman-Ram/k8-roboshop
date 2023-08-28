@@ -18,7 +18,7 @@ spec:
   containers:
   - name: cart
     imagePullPolicy: Always
-    image: harmanram/cart:v1
+    image: harmanram/cart:k8
     envFrom:
     - configMapRef:
         name: cart-config
